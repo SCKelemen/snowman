@@ -51,3 +51,31 @@
 }
 
 */
+
+.badge {
+    position: relative;
+}
+
+.badge[data-badge]::before {
+    content: attr(data-badge);
+    position: absolute;
+    color: #fff;
+    text-align: center; 
+    font-size: 1em;
+    line-height: 1.2em;
+    top: -1.2em;
+    left: 0;
+    font-weight: 500;
+}
+
+.Segment:last-child::after {
+    content: "0";
+    position: absolute;
+    color: #fff;
+    text-align: center; 
+    font-size: 1em;
+    line-height: 1.2em;
+    top: -1.2em;
+    right: 0;
+    font-weight: 500;
+}
