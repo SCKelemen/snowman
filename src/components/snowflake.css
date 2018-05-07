@@ -1,0 +1,53 @@
+.Snowflake {
+    font-weight: 700;
+    color: orange;
+}
+
+.Segment {
+    background: #111;
+    color: #ddd;
+}
+.Segment:nth-of-type(2n+0) {
+    background: #aaa;
+    color: #000;
+}
+.Segment:nth-of-type(3n+0) {
+    background: #ddd;
+    color: #000;
+}
+
+
+/*
+
+.Segment {
+    background: #B10dc9;
+    color: #fff;
+}
+.Segment:nth-of-type(2n+0) {
+    background: #2ecc40;
+    color: #000;
+}
+.Segment:nth-of-type(3n+0) {
+    background: #3d9970;
+    color: #000;
+}
+
+.Segment:nth-of-type(4n+0) {
+    background: #39cccc;
+    color: #000;
+}
+.Segment:nth-of-type(5n+0) {
+    background: #7fdbff;
+    color: #000;
+}
+.Segment:nth-of-type(6n+0) {
+    background: #0074d9;
+    color: #fff;
+}
+
+.Segment:nth-of-type(7n+0) {
+    background: #001f3f;
+    color: #fff;
+}
+
+*/
