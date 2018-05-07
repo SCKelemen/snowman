@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './App.css';
 import Builder from './components/builder'
-import logo from './logo.svg';
+import logo from './Snowflake.svg';
 
 class App extends React.Component {
   public render() {
@@ -9,7 +9,7 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Snowflake Builder</h1>
         </header>
         <Builder/>
       </div>
