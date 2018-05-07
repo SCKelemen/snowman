@@ -9,7 +9,13 @@ class Builder extends React.Component {
     return (
       <div className="Builder">
         <Snowflake />
-        <Attribute Name="Sam" Start={1} End={1} Offset="0x00" Length={0} />
+        <Attribute Name="TimeStamp" Number={0} />
+        <Attribute Name="Sam" Number={1} />
+        <Attribute Name="Sam" Number={2} />
+        <Attribute Name="Sam" Number={3} />
+        <Attribute Name="Sam" Number={4} />
+        <Attribute Name="Sam" Number={5} />
+        <Attribute Name="Sam" Number={6} />
       </div>
     );
   }

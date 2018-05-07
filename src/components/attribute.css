@@ -1,3 +1,24 @@
-.Attribute {
-    color: #fff;
+
+/* black  */ 
+.Attribute:nth-of-type(3n+1) {
+    background: #111;
+    color: #ddd;
 }
+
+/* grey   */
+.Attribute:nth-of-type(3n+2) {
+    background: #aaa;
+    color: #000;
+}
+
+/* silver */
+.Attribute:nth-of-type(3n+0) {
+    background: #ddd;
+    color: #000;
+}
+
+.Attribute {
+    background: #111;
+    color: #ddd;
+}
+

@@ -3,19 +3,28 @@
     color: orange;
 }
 
-.Segment {
+/* black  */ 
+.Segment:nth-of-type(3n+1) {
     background: #111;
     color: #ddd;
 }
-.Segment:nth-of-type(2n+0) {
+
+/* grey   */
+.Segment:nth-of-type(3n+2) {
     background: #aaa;
     color: #000;
 }
+
+/* silver */
 .Segment:nth-of-type(3n+0) {
     background: #ddd;
     color: #000;
 }
 
+.Segment {
+    background: #111;
+    color: #ddd;
+}
 
 /*
 
