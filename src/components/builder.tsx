@@ -10,13 +10,10 @@ class Builder extends React.Component {
       <div className="Builder">
         <Snowflake />
         <Attribute Name="TimeStamp" Number={0} />
-        <Attribute Name="Sam" Number={1} />
-        <Attribute Name="Sam" Number={2} />
-        <Attribute Name="Sam" Number={3} />
-        <Attribute Name="Sam" Number={4} />
-        <Attribute Name="Sam" Number={5} />
-        <Attribute Name="Sam" Number={6} />
-      </div>
+        <Attribute Name="WorkerID" Number={1} />
+        <Attribute Name="ProcessID" Number={2} />
+        <Attribute Name="SequenceID" Number={3} />
+    </div>
     );
   }
 }
