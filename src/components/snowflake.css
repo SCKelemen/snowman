@@ -1,24 +1,53 @@
+:root {
+    --color-sherpa-blue: #013243;
+    --color-san-marino: #446cb3;
+    --color-alice-blue: #E4F1Fe;
+    --color-royal-blue: #4183d7;
+    --color-picton-blue: #59abe3;
+    --color-spray: #81cfe0;
+    --color-shakespeare: #52b3d9;
+    --color-humming-bird: #c5eff7;
+    --color-picton-blue-vivid: #22a7f0;    
+    --color-curious-blue: #3489DB;
+    --color-madison: #2c3e50;
+    --color-dodger-blue: #19b5fe;
+    --color-ming: #336e7b;
+    --color-ebony-clay: #22313f;
+    --color-malibu: #6bb9f0;
+    --color-summer-sky: #1e8bc3;
+    --color-chambray: #3a539b;
+    --color-pickled-bluewood: #34495e;
+    --color-hoki: #67809F;
+    --color-jelly-bean: #2574a9;
+    --color-jacksons-purple: #1f3a93;
+    --color-jordy-blue: #89c4f4;
+    --color-steel-blue: #4b77be;
+    --color-fountian-blue: #5c97bf;
+}
+
+
 .Snowflake {
     font-weight: 700;
     color: orange;
+    padding-bottom: 2em;
 }
 
 /* black  */ 
 .Segment:nth-of-type(3n+1) {
-    background: #111;
-    color: #ddd;
+    background-color: var( --color-picton-blue-vivid ); /* background: #111; */
+    color: #DDD; /* color: #ddd; */
 }
 
 /* grey   */
 .Segment:nth-of-type(3n+2) {
-    background: #aaa;
-    color: #000;
+    background-color: var( --color-steel-blue ); /* background: #aaa; */
+    color: #DDD; /* color: #000; */
 }
 
 /* silver */
 .Segment:nth-of-type(3n+0) {
-    background: #ddd;
-    color: #000;
+    background-color: var( --color-curious-blue ); /* background: #ddd; */
+    color: #DDD; /* color: #000; */
 }
 
 .Segment {

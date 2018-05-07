@@ -26,7 +26,7 @@ class Attribute extends React.Component<IAttributeProps, IAttributeState> {
   public render() {
     return (
       <div className="Attribute">      
-        <span className="itemNum">       {this.state.Number}   </span>
+        <span className="itemNum">       {this.state.Number}  </span>
         <span className="itemName">       {this.state.Name}   </span>
         <span className="startPosition">  {this.state.Start}  </span>
         <span className="endPosition">    {this.state.End}    </span>
